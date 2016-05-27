@@ -1,0 +1,11 @@
+[package]
+name = "derive_gift"
+version = "0.1.0"
+authors = ["Stephan Brandauer <stephan.brandauer@it.uu.se>"]
+
+[lib]
+name = "derive_gift"
+crate_type=["dylib"]
+
+[dependencies]
+giftr = { path = "../giftr/" }
